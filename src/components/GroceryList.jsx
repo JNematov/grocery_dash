@@ -16,16 +16,16 @@ const GroceryList = () => {
         name: "Cat Water Fountain",
         price: 19.98,
         location: "A26",
-        image: require('../images/'),
-        map: "",
-
+        image: require('../images/cat_water.png')
     }]
 
     return (
         <div className="grocery-list">
             {list.map((target) => (
                 <div className="target">
-                    <Target target={target} />
+                    <Target target={target} style={{
+                        display: "flex", 
+                    }} />
                 </div>
             ))}
         </div>

@@ -6,6 +6,7 @@ const Home = () => {
             <SearchBar/>
             <h1>Shopping List</h1>
             <GroceryList/>
+            <img src={require('../images/path.png')}/>
         </div>
      );
 }
